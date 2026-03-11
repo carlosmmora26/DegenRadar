@@ -1,0 +1,17 @@
+# DegenRadar — Dependencies
+# ==================================
+# Core Solana blockchain interaction
+solana>=0.30.0           # Solana RPC client
+solders>=0.18.0          # Fast Solana serialization
+
+# Data processing
+pandas>=2.0.0            # DataFrames for trade analysis
+
+# HTTP clients
+requests>=2.31.0         # DexScreener & Pump.fun API calls
+
+# Environment management
+python-dotenv>=1.0.0     # Load .env configuration
+
+# UI
+tqdm>=4.65.0             # Progress bars for long operations
