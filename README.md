@@ -6,6 +6,8 @@
 
 ## English
 
+![Pipeline](assets/pipeline.svg)
+
 Finding consistently profitable meme coin traders on Solana is nearly impossible to do manually — the volume of wallets and transactions is just too high. DegenRadar automates that process.
 
 It scans token activity on DexScreener and Pump.fun, extracts the wallets behind successful trades, filters out whales/MEV bots/insiders, and scores each wallet based on real performance metrics. The best wallets get promoted to a live watchlist that gets polled every 2 minutes — so when they make a move, you know about it.
@@ -38,10 +40,15 @@ Copyability is a key metric: MEV bots (sub-5s holds) score 0.0, fast snipers sco
 - Multi-node RPC rotation (Helius, Alchemy, QuickNode, public fallbacks)
 - JSON-based persistence — no database needed
 
+### Output
+
+![Token Discovery](assets/screenshot1.png)
+![Top Alpha Wallets](assets/screenshot2.png)
+
 ### Setup
 
 ```bash
-git clone https://github.com/your-username/DegenRadar.git
+git clone https://github.com/carlosmmora26/DegenRadar.git
 cd DegenRadar
 pip install -r requirements.txt
 cp MemeAlphaCrew_Auto/.env.example MemeAlphaCrew_Auto/.env
@@ -102,7 +109,7 @@ La Copyabilidad es una métrica clave: bots MEV (holds <5s) puntúan 0.0, sniper
 ### Instalación
 
 ```bash
-git clone https://github.com/your-username/DegenRadar.git
+git clone https://github.com/carlosmmora26/DegenRadar.git
 cd DegenRadar
 pip install -r requirements.txt
 cp MemeAlphaCrew_Auto/.env.example MemeAlphaCrew_Auto/.env
