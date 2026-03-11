@@ -6,6 +6,8 @@
 
 ## English
 
+![Banner](assets/banner.png)
+
 ![Pipeline](assets/pipeline.svg)
 
 Finding consistently profitable meme coin traders on Solana is nearly impossible to do manually — the volume of wallets and transactions is just too high. DegenRadar automates that process.
